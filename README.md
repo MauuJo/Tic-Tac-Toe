@@ -51,9 +51,9 @@ This project demonstrates my understanding of **object-oriented programming (OOP
 
 ## Screenshots
 
-Winning scenerio
+Winning scenario
 
-Draw scenerio
+Draw scenario
 
 
 ## How to Compile and Run
