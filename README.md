@@ -23,12 +23,6 @@ This project demonstrates my understanding of **object-oriented programming (OOP
     - Announces the winning player or declares a draw.
 
 ## Example Usage
-'''
-#include <iostream>
-#include "TicTacToe.h" // Include the TicTacToe class header
-
-int main() {
-    TicTacToe game; // Create an instance of TicTacToe
 
     // Game loop
     while (!game.isGameOver()) {
@@ -53,7 +47,7 @@ int main() {
     }
 
     return 0;
-}'''
+
 
 ## Screenshots
 
