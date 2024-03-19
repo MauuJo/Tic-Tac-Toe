@@ -23,7 +23,7 @@ This project demonstrates my understanding of **object-oriented programming (OOP
     - Announces the winning player or declares a draw.
 
 ## Example Usage
-
+'''
 #include <iostream>
 #include "TicTacToe.h" // Include the TicTacToe class header
 
@@ -53,7 +53,7 @@ int main() {
     }
 
     return 0;
-}
+}'''
 
 ## Screenshots
 
