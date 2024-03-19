@@ -51,9 +51,39 @@ This project demonstrates my understanding of **object-oriented programming (OOP
 
 ## Screenshots
 
-Winning scenario
+<div style="text-align:center">
+  <img src="./game_screenshots/winning_scenario/7.png" alt="Winning Scenario" style="width: 400px;">
+  <img src="./game_screenshots/winning_scenario/8.png" alt="Winning Scenario" style="width: 400px;">
+  <p>Winning Scenario</p>
+  <button onclick="prevSlide()">Previous</button>
+  <button onclick="nextSlide()">Next</button>
+  <img src="./game_screenshots/draw_scenario/10.png" alt="Winning Scenario" style="width: 400px;">
+  <img src="./game_screenshots/draw_scenario/11.png" alt="Winning Scenario" style="width: 400px;">
+  <p>Draw Scenario</p>
+</div>
 
-Draw scenario
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll('img');
+const totalSlides = slides.length;
+
+function showSlide(n) {
+  slides.forEach(slide => slide.style.display = 'none');
+  slides[n].style.display = 'block';
+}
+
+function prevSlide() {
+  currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+  showSlide(currentSlide);
+}
+
+function nextSlide() {
+  currentSlide = (currentSlide + 1) % totalSlides;
+  showSlide(currentSlide);
+}
+
+showSlide(currentSlide);
+</script>
 
 
 ## How to Compile and Run
